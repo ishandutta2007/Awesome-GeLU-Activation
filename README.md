@@ -23,10 +23,10 @@ The evolution of activation functions reflects the shift from deterministic gati
 
 | Activation | Year | Original Paper | Key Contribution |
 | :--- | :--- | :--- | :--- |
-| **ReLU** | 2010 | [Rectified Linear Units Improve Restricted Boltzmann Machines](https://www.cs.toronto.edu/~fritz/absps/relu_icml.pdf) | Popularized the sparse, efficient rectifier for deep learning. |
-| **GELU** | 2016 | [Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415) | Introduced stochasticity by weighting inputs by their cumulative Gaussian probability. |
-| **SiLU / Swish** | 2017 | [Sigmoid-Weighted Linear Units](https://arxiv.org/abs/1702.03118) / [Searching for Activation Functions](https://arxiv.org/abs/1710.05941) | Discovered via automated search; provided a smooth, non-monotonic alternative. |
-| **SwiGLU** | 2020 | [GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202) | Combined Gated Linear Units with Swish, now a standard in LLMs like Llama. |
+| [**ReLU**](./docs/relu.md) | 2010 | [Rectified Linear Units Improve Restricted Boltzmann Machines](https://www.cs.toronto.edu/~fritz/absps/relu_icml.pdf) | Popularized the sparse, efficient rectifier for deep learning. |
+| [**GELU**](./docs/gelu.md) | 2016 | [Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415) | Introduced stochasticity by weighting inputs by their cumulative Gaussian probability. |
+| [**SiLU / Swish**](./docs/swish.md) | 2017 | [Sigmoid-Weighted Linear Units](https://arxiv.org/abs/1702.03118) / [Searching for Activation Functions](https://arxiv.org/abs/1710.05941) | Discovered via automated search; provided a smooth, non-monotonic alternative. |
+| [**SwiGLU**](./docs/swiglu.md) | 2020 | [GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202) | Combined Gated Linear Units with Swish, now a standard in LLMs like Llama. |
 
 ---
 
